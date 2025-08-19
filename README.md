@@ -14,17 +14,15 @@ Tasks covered:
 Download the dataset from the google link shared and put it in the dataset/ directory
 Directory Structure Should look like this:
 <pre>
-'''
-dataset/
-├── bdd100k_images_100k/
-└── bdd100k_labels_release/
-notebooks/
-├── 01_data_analysis.ipynb
-├── 02_baseline_model.ipynb
-├── 03_comparision.ipynb
-└── 04_fine_tuning.ipynb
-requirements.txt
-'''
+├─ dataset
+│  ├─ bdd100k_images_100k
+│  └─ bdd100k_labels_release
+├─ notebooks
+│   ├─ 01_data_analysis.ipynb
+│   ├─ 02_baseline_model.ipynb
+│   ├─ 03_comparision.ipynb
+│   └─ 04_fine_tuning.ipynb
+└─ requirements.txt
 </pre>
 
 ## Environment Setup
